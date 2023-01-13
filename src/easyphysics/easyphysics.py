@@ -10,7 +10,7 @@
 
 
 
-def free_fall(height, g = 9.8):
+# def free_fall(height, g = 9.8):
     """ calculate the distance traveled by a falling object 
     using the equation of motion h = 1/2*gt^2, return the time
     it takes for the free fall.
@@ -35,4 +35,4 @@ def free_fall(height, g = 9.8):
     >>> free_fall(10, g = 274)
     0.2702
     """
-    return time 
+#    return time 
