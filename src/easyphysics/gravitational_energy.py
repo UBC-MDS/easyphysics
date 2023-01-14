@@ -15,7 +15,7 @@ def gravitational_energy(mass, g = 9.8,height):
 
     Returns
     -------
-    GE : float
+    ge : float
         A gravitational energy (float) value which is the energy stored in the object.
 
     Examples
