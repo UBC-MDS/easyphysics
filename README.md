@@ -21,6 +21,7 @@ A similar package [sympy](https://github.com/sympy/sympy) is available, which ha
 
 `easyphysics` is targeted at physics beginners rather than professionals. We aim to use four functions to explain four basic physics formulas and make learning physics easy and fun.
 
+
 ## Contributing
 
 Interested in contributing? Check out the [contributing guidelines](CONTRIBUTING.md). Please note that this project is released with a [Code of Conduct](CONDUCT.md). By contributing to this project, you agree to abide by its terms.
