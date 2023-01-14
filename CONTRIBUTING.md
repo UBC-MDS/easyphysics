@@ -1,6 +1,6 @@
 # Contributing to the easyphysics package
 
-We appreciate your time and effort in contributing to this project. Any type of contributions are welcomed. These contributions include but not limited to:
+We appreciate your time and effort in contributing to this project. Any contributions are welcomed. These contributions include but are not limited to:
 
 **Report or fix bugs**
 
@@ -16,7 +16,7 @@ We appreciate your time and effort in contributing to this project. Any type of 
 
 ### GitHub Issue
 
-If you want to have any time of contributions to this package, please create a GitHub issue in our repository to inform us. Then please follow the instructions below for different types of contributions.
+If you want to have any type of contributions to this package, please create a GitHub issue in our repository to inform us. Then please follow the instructions below for different types of contributions.
 
 ### Code Contribution
 
