@@ -13,7 +13,7 @@ $ pip install easyphysics
 The package has four functions which can provide solutions for Physics Equations. Input will be taken from the User and the solutions will be provided by the functions. The four functions are as follows: 
 
 
-- **free_fall()** calculates the distance traveled by a falling object using the equation of motion. This function returns the time it takes for a free fall.
+- **freefall()** calculates the distance traveled by a falling object using the equation of motion. This function returns the time it takes for a free fall.
 
 ## Fitting into the Python ecosystem
 
