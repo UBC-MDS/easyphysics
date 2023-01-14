@@ -17,7 +17,7 @@ The package has four functions which can provide solutions for Physics Equations
 
 ## Fitting into the Python ecosystem
 
-A similar package ['sympy'](https://github.com/sympy/sympy) is available, which has a [module in Physics] (https://docs.sympy.org/latest/reference/public/physics/index.html).'sympy' is a library for symbolic computation. The physics module focuses on solving advanced physics problems such as Hydrogen Wavefunction and Quantum physics.
+A similar package [sympy](https://github.com/sympy/sympy) is available, which has a [module in physics](https://docs.sympy.org/latest/reference/public/physics/index.html).'sympy' is a library for symbolic computation. The physics module focuses on solving advanced physics problems such as Hydrogen Wavefunction and Quantum physics.
 
 `easyphysics` is targeted at physics beginners rather than professionals. We aim to use four functions to explain four basic physics formulas and make learning physics easy and fun.
 
