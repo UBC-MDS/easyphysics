@@ -10,7 +10,9 @@ $ pip install easyphysics
 
 ## Usage
 
-- TODO
+- The package has four functions which can provide solutions for Physics Equations. Input will be taken from the User and the solutions will be provided by the functions. The four functions are as follows: 
+
+
 
 ## Contributing
 
@@ -18,7 +20,7 @@ Interested in contributing? Check out the contributing guidelines. Please note t
 
 ## License
 
-`easyphysics` was created by Group 16. It is licensed under the terms of the MIT license.
+`easyphysics` was created by Revathy Ponnambalam, Nikita Susan Easow, Yaou Hu and Mengjun Chen . It is licensed under the terms of the MIT license.
 
 ## Credits
 
