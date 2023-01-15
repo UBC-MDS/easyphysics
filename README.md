@@ -14,6 +14,10 @@ The package has four functions which can provide solutions for Physics Equations
 
 
 - `freefall()` calculates the time needed for a falling object to reach the ground using the equation of motion. The distance traveled by the falling object and the acceleration of gravity are the function’s arguments. 
+- `gravitational_energy()` calculates the energy possessed or acquired by an object due to a change in its position when it is present in a gravitational field  = m*g*h
+- `kinetic_energy()` calculates the Kinetic Energy of an object. When work is done on an object, energy is transferred, and the object moves with a new constant speed. We call the energy that is transferred kinetic energy, and it depends on the mass and speed achieved. The kinetic energy equation is given as: KE = 1/2*m*v^2, Where KE is the kinetic energy, m is the body’s mass, and v is the body’s velocity.
+- `static_friction_ground()` calculates the friction force for static object. The formula is fr = mu * N, where 
+    the mu is the coefficient of friction which incorporating the characteristics of the surface.
 
 ## Fitting into the Python ecosystem
 
