@@ -19,7 +19,7 @@ The package has four functions which can provide solutions for Physics Equations
 - `static_friction_ground()` calculates the friction force for static object. The formula is fr = mu * N, where 
     the mu is the coefficient of friction which incorporating the characteristics of the surface.
 
-```
+```python
 from easyphysics.freefall import freefall
 import matplotlib.pylab as plt
 time, plot = freefall(height, g = 9.8)
