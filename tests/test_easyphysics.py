@@ -2,6 +2,7 @@ import sys
 #sys.path.append("..\\src\\")
 print(sys.path)
 from easyphysics.kinetic_energy import kinetic_energy
+from easyphysics.gravitational_energy import gravitational_energy
 from easyphysics.freefall import freefall
 import matplotlib
 import pytest
@@ -32,8 +33,11 @@ def test_freefall():
            "Not a plot returned!"
 
 def test_gravitation_energy():
-    m = 10
-    v = 2.3
-    expected = 26.45
-    actual = kinetic_energy(m, v)
-    assert actual == expected, "Kinetic Energy is wrong! Check again!"
+    """ Test Gravitational Energy"""
+    expected1 = 245.16
+    expected2=2157.463 
+    actual1 = gravitation_energy(2.5, g = 9.8,10)
+    actual2 = gravitational_energy(10, g = 9.80665, 22)
+    
+    assert actual1 == expected1, "Gravitation Energy calculated is not right! Do Check inputs"
+    assert actual2 == expected2, "Gravitation Energy calculated is not right! Do Check inputs"
