@@ -35,7 +35,7 @@ def test_freefall():
 def test_gravitation_energy():
     """ Test Gravitational Energy"""
     expected1 = 245.16
-    expected2=2157.463 
+    expected2 = 2157.463 
     actual1 = gravitation_energy(2.5, g = 9.8,10)
     actual2 = gravitational_energy(10, g = 9.80665, 22)
     
