@@ -30,3 +30,10 @@ def test_freefall():
            "Not a plot returned!"
     assert type(plot3) == matplotlib.figure.Figure, \
            "Not a plot returned!"
+
+def test_gravitation_energy():
+    m = 10
+    v = 2.3
+    expected = 26.45
+    actual = kinetic_energy(m, v)
+    assert actual == expected, "Kinetic Energy is wrong! Check again!"
