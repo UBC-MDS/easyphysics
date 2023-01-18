@@ -39,5 +39,5 @@ def test_gravitation_energy():
     actual1 = gravitation_energy(2.5, g = 9.8,10)
     actual2 = gravitational_energy(10, g = 9.80665, 22)
     
-    assert actual1 == expected1, "Gravitation Energy calculated is not right! Do Check inputs"
-    assert actual2 == expected2, "Gravitation Energy calculated is not right! Do Check inputs"
+    assert round(actual1,2) == round(expected1,2), "Gravitation Energy calculated is not right! Do Check inputs"
+    assert round(actual2,2) == round(expected2,2), "Gravitation Energy calculated is not right! Do Check inputs"

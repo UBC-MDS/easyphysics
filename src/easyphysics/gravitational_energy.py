@@ -25,5 +25,5 @@ def gravitational_energy(mass, g = 9.8,height):
     >>> gravitational_energy(10, g = 9.80665, 22)
     2157.463 
     """
-    
-return ge 
+    ge = m*g*h
+    return ge 
