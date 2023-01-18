@@ -1,4 +1,4 @@
-def gravitational_energy(mass, g = 9.8,height):
+def gravitational_energy(m, g = 9.8,h):
     
     
     """ calculate the energy possessed or acquired by an object due to a change in its position when it is present 
@@ -25,5 +25,5 @@ def gravitational_energy(mass, g = 9.8,height):
     >>> gravitational_energy(10, g = 9.80665, 22)
     2157.463 
     """
-    
-return ge 
+    ge = m*g*h
+    return ge 
