@@ -21,4 +21,5 @@ def kinetic_energy(m, v):
     >>> kinetic_energy(0.6, 3)
     2.7
     """
-    return None
+    KE = m*v*v/2
+    return KE
