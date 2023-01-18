@@ -1,7 +1,7 @@
 import sys
 #sys.path.append("..\\src\\")
 print(sys.path)
-from src.easyphysics.kinetic_energy import kinetic_energy 
+from easyphysics.kinetic_energy import kinetic_energy 
 
 def test_kinetic_energy():
     m = 10
