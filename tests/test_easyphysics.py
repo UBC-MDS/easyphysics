@@ -37,13 +37,13 @@ def test_freefall():
     assert type(plot3) == matplotlib.figure.Figure, \
            "Not a plot returned!"
     
-    # test inputting not a number
+    # test inputting height as not a number
     with pytest.raises(TypeError):
-        freefall(a)
+        freefall('a')
     
-    # test input with number
-    with pytest.raises(KeyError):
-        freefaa(CH45)
+    # test input g as not a number
+    with pytest.raises(TypeError):
+        freefall(100, g = 'g')
         
 def test_gravitation_energy():
     """ Test Gravitational Energy"""
