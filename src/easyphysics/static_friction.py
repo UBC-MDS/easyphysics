@@ -1,3 +1,7 @@
+import altair as alt
+import numpy as np
+import pandas as pd
+
 
 def static_friction_ground(mu, m, g = 9.8):
     """ calculating the friction force for static object. The formula is fr = mu * N, where 
@@ -27,5 +31,57 @@ def static_friction_ground(mu, m, g = 9.8):
     >>> static_traction_ground(0.2, 2, g = 10)
     4
     """
-    result = 0
+    #checking the input values to be the right 
+    if mu.isnumeric() and m.isnumeric() and g.isnumeric():
+        result = mu * m * g
+    else:
+        return "please enter numbers for variables!"
+
     return result
+
+def plot_frict(m, mu, g):
+    """
+    Ploting the trend line for firction force in different masses 
+    
+    parameter
+    ------------
+    mu : numeric 
+        coefficient of friction
+    m: numeric
+        mass (kg)
+    g: numeric, optimal     
+        gravity on Earth
+    
+    return
+    ---------------
+    plot
+        
+    Examples
+    ---------------
+    >>> static_friction_ground(0.2, 2)
+    line plot 
+    >>> static_traction_ground(0.2, 2, g = 10)
+    line plot
+    """
+    
+    if mu.isnumeric() and m.isnumeric() and g.isnumeric():
+        
+        masses = np.arange(0, m, 0.1)
+
+        friction_line = [static_friction_ground(mu, i , g) for i in masses]
+
+        source = pd.DataFrame({
+            'mass': masses,
+            'friction': friction_line
+            })
+        line = alt.Chart(source).mark_line().encode(
+            x='mass',
+            y='friction',
+            tooltip = ['mass', 'friction']
+        ).properties(
+        title = "The static friction as mass increase"
+        )
+    else:
+        return "Please enter numbers for variables"
+        
+    return line
