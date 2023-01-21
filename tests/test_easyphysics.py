@@ -22,9 +22,9 @@ def test_freefall():
     actual_time2, plot2 = freefall(100, g = 10)
     expected_time3 = 0.3162
     actual_time3, plot3 = freefall(5, g = 100)    
-    assert round(expected_time1,2) == round(actual_time1,2)
-    assert round(expected_time2,2) == round(actual_time2,2)
-    assert round(expected_time3,2) == round(actual_time3,2)
+    assert round(expected_time1,2) == round(actual_time1,2), "freefall calculation not correct"
+    assert round(expected_time2,2) == round(actual_time2,2), "freefall calculation not correct"
+    assert round(expected_time3,2) == round(actual_time3,2), "freefall calculation not correct"
     assert type(plot1) == matplotlib.figure.Figure, \
            "Not a plot returned!"
     assert type(plot2) == matplotlib.figure.Figure, \
