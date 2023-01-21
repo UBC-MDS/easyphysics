@@ -32,7 +32,7 @@ def static_friction_ground(mu, m, g = 9.8):
     4
     """
     #checking the input values to be the right 
-    if (type(mu) == int or type(mu) == float) & (type(g) == int or type(g) == float) & (type(m) == int or type(m) == float):                             :
+    if (type(mu) == int or type(mu) == float) and (type(g) == int or type(g) == float) and (type(m) == int or type(m) == float):                             :
         result = mu * m * g
     else:
         raise TypeError('height and g has to be numeric!')
@@ -64,7 +64,7 @@ def plot_frict(m, mu, g):
     line plot
     """
     
-    if (type(mu) == int or type(mu) == float) & (type(g) == int or type(g) == float) & (type(m) == int or type(m) == float):
+    if (type(mu) == int or type(mu) == float) and (type(g) == int or type(g) == float) and (type(m) == int or type(m) == float):
         
         masses = np.arange(0, m, 0.1)
 
