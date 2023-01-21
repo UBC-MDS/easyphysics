@@ -17,22 +17,34 @@ def test_kinetic_energy():
     
 def test_freefall():
     """ Test freefall function time and plot"""
+    
+    # test three different input combinations
     expected_time1 = 1.4286
     actual_time1, plot1 = freefall(10)
-    expected_time2 = 14.142
+    expected_time2 = 4.47
     actual_time2, plot2 = freefall(100, g = 10)
     expected_time3 = 0.3162
     actual_time3, plot3 = freefall(5, g = 100)    
     assert round(expected_time1,2) == round(actual_time1,2), "freefall calculation not correct"
     assert round(expected_time2,2) == round(actual_time2,2), "freefall calculation not correct"
     assert round(expected_time3,2) == round(actual_time3,2), "freefall calculation not correct"
+    
+    # test the output has a plot
     assert type(plot1) == matplotlib.figure.Figure, \
            "Not a plot returned!"
     assert type(plot2) == matplotlib.figure.Figure, \
            "Not a plot returned!"
     assert type(plot3) == matplotlib.figure.Figure, \
            "Not a plot returned!"
-
+    
+    # test inputting height as not a number
+    with pytest.raises(TypeError):
+        freefall('a')
+    
+    # test input g as not a number
+    with pytest.raises(TypeError):
+        freefall(100, g = 'g')
+        
 def test_gravitation_energy():
     """ Test Gravitational Energy"""
     expected1 = 245.16

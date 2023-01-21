@@ -56,6 +56,6 @@ def freefall(height, g = 9.8):
         plt.figure(figsize = (10,10))
         plot = plt.figure()
     else:
-        raise Exception('height and g has to be numeric!')
+        raise TypeError('height and g has to be numeric!')
         
     return time, plot 
