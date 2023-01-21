@@ -35,7 +35,7 @@ def static_friction_ground(mu, m, g = 9.8):
     if (type(mu) == int or type(mu) == float) & (type(g) == int or type(g) == float) & (type(m) == int or type(m) == float):                             :
         result = mu * m * g
     else:
-        raise Exception('height and g has to be numeric!')
+        raise TypeError('height and g has to be numeric!')
 
     return result
 
@@ -82,6 +82,6 @@ def plot_frict(m, mu, g):
         title = "The static friction as mass increase"
         )
     else:
-        raise Exception('height and g has to be numeric!')
+        raise TypeError('height and g has to be numeric!')
         
     return line
