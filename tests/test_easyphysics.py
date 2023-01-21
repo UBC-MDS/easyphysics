@@ -19,7 +19,7 @@ def test_freefall():
     """ Test freefall function time and plot"""
     expected_time1 = 1.4286
     actual_time1, plot1 = freefall(10)
-    expected_time2 = 14.142
+    expected_time2 = 4.47
     actual_time2, plot2 = freefall(100, g = 10)
     expected_time3 = 0.3162
     actual_time3, plot3 = freefall(5, g = 100)    
