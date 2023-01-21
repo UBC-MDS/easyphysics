@@ -2,7 +2,6 @@ import altair as alt
 import numpy as np
 import pandas as pd
 
-
 def static_friction_ground(mu, m, g = 9.8):
     """ calculating the friction force for static object. The formula is fr = mu * N, where 
     the mu is the coefficient of friction which incorporating the characteristics of the surface.
@@ -32,7 +31,7 @@ def static_friction_ground(mu, m, g = 9.8):
     4
     """
     #checking the input values to be the right 
-    if (type(mu) == int or type(mu) == float) and (type(g) == int or type(g) == float) and (type(m) == int or type(m) == float):                             :
+    if (type(mu) == int or type(mu) == float) and (type(g) == int or type(g) == float) and (type(m) == int or type(m) == float):
         result = mu * m * g
     else:
         raise TypeError('height and g has to be numeric!')
