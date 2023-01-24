@@ -13,7 +13,7 @@ $ pip install easyphysics
 The package has four functions which can provide solutions for Physics Equations. Input will be taken from the User and the solutions will be provided by the functions. The four functions are as follows: 
 
 
-- `freefall()` calculates the distance traveled by a falling object using the equation of motion h = 1/2*gt^2, returns the time it takes for the free fall, and a plot compares the time it takes for the free fall on different planets.The distance traveled by the falling object and the acceleration of gravity are the function's arguments. 
+- `freefall()` calculates the time it takes for a falling object using the equation of motion height = 1/2*gt^2, given the height and gravity of the free fall. It returns the time it takes for the free fall, and a plot compares the time of the free fall on different planets with a list. The distance traveled by the falling object (height) and the acceleration of gravity (g, default = 9.8) are the function’s arguments. 
 - `gravitational_energy()` calculates the energy possessed or acquired by an object due to a change in its position when it is present in a gravitational field  = m*g*h
 - `kinetic_energy()` calculates the Kinetic Energy of an object. When work is done on an object, energy is transferred, and the object moves with a new constant speed. We call the energy that is transferred kinetic energy, and it depends on the mass and speed achieved. The kinetic energy equation is given as: KE = 1/2*m*v^2, Where KE is the kinetic energy, m is the body’s mass, and v is the body’s velocity.
 - `static_friction_ground()` calculates the friction force for static object. The formula is fr = mu * N, where 
