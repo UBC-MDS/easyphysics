@@ -67,7 +67,7 @@ def plot_frict(m, mu, g):
         
         masses = np.arange(0, m, 0.1)
 
-        friction_line = [static_friction_ground(mu, i , g) for i in masses]
+        friction_line = [static_friction_ground(mu = mu, m=i.item() , g=g) for i in masses]
 
         source = pd.DataFrame({
             'mass': masses,
