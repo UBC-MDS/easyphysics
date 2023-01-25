@@ -23,6 +23,9 @@ def freefall(height, g=9.8):
     -------
     time: float
         A float that is the time it takes for the free fall in seconds.
+    plot: matplotlib.figure.Figure,
+        A matplotlib.figure.Figure that compares time of a free fall with
+        the height indicated by user on different planets.
     Examples
     --------
     >>> free_fall(10, g=9.8)
@@ -49,7 +52,7 @@ def freefall(height, g=9.8):
             planet.append(key)
         for value in sorted_gdict.values():
             times.append(np.sqrt(2*height/(9.8*value)))
-        plt.plot(planet,times)
+        plt.scatter(planet,times)
         plt.ylabel("Time for the free fall in seconds")
         plt.xlabel("Planets")
         plt.title("Time for the free fall on different planets for the height you entered")
