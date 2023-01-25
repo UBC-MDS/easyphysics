@@ -25,6 +25,24 @@ import matplotlib.pylab as plt
 time, plot = freefall(height, g = 9.8)
 
 ```
+
+```python
+from easyphysics.kinetic_energy import kinetic_energy
+KE = kinetic_energy(mass, velocity)
+
+```
+
+```python
+from easyphysics.gravitational_energy import gravitational_energy
+gravitational_energy(m,h, g = 9.80665)
+
+```
+
+```python
+from easyphysics.static_friction_ground import static_friction_ground
+static_friction_ground(mu, m, g = 9.8)
+
+```
 ## Fitting into the Python ecosystem
 
 A similar well-known package [sympy](https://github.com/sympy/sympy) is available, which has a [module in physics](https://docs.sympy.org/latest/reference/public/physics/index.html).`sympy` is a library for symbolic computation. The physics module focuses on solving advanced physics problems such as Hydrogen Wavefunction and Quantum physics.
