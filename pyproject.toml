@@ -23,8 +23,8 @@ sphinx-rtd-theme = "^1.1.1"
 python-semantic-release = "^7.33.0"
 
 [tool.semantic_release]
-version_variable = "pyproject.toml:version" # version location
-#version_variable = "easyphysics.toml:0.1.0" # version location
+#version_variable = "pyproject.toml:version" # version location
+version_variable = "src/easyphysics/__init__.py:__version__" # version location
 branch = "main"                             # branch to make releases of
 changelog_file = "CHANGELOG.md"             # changelog file
 build_command = "poetry build"              # build dists
