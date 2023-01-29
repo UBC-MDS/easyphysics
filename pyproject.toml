@@ -5,6 +5,9 @@ description = "A package with useful physics formulas to make physics easy and f
 authors = ["Group 16"]
 license = "MIT"
 readme = "README.md"
+homepage = "https://github.com/UBC-MDS/easyphysics"
+repository = "https://github.com/UBC-MDS/easyphysics"
+documentation = "https://easyphysics.readthedocs.io"
 
 [tool.poetry.dependencies]
 python = "^3.9"
