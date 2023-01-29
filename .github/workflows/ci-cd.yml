@@ -73,7 +73,7 @@ jobs:
             poetry run semantic-release publish
 
       - name: Publish to TestPyPI
-        uses: pypa/gh-action-pypi-publish@release/v1
+        uses: pypa/gh-action-pypi-publish@release/v2
         with:
           user: __token__
           password: ${{ secrets.TEST_PYPI_API_TOKEN }}
