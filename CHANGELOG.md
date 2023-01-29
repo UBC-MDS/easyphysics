@@ -2,6 +2,14 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.0 (2023-01-29)
+### Feature
+* Adding comment! ([`5be5f8b`](https://github.com/UBC-MDS/easyphysics/commit/5be5f8ba9c45c6141f0dd3bf7c719a69ba278896))
+
+### Fix
+* Adding comment again! ([`08a6cd6`](https://github.com/UBC-MDS/easyphysics/commit/08a6cd6b10210cfb4dc6c999b610b8dc9ba14e15))
+* Removing comment! ([`b5d812d`](https://github.com/UBC-MDS/easyphysics/commit/b5d812d8e03e15d2e5744c2a18159e5eb1e82c49))
+
 ## v0.1.1 (2023-01-29)
 
 
