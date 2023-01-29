@@ -5,6 +5,9 @@ description = "A package with useful physics formulas to make physics easy and f
 authors = ["Group 16"]
 license = "MIT"
 readme = "README.md"
+homepage = "https://github.com/UBC-MDS/easyphysics"
+repository = "https://github.com/UBC-MDS/easyphysics"
+documentation = "https://easyphysics.readthedocs.io"
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -20,9 +23,11 @@ jupyter = "^1.0.0"
 myst-nb = {version = "^0.17.1", python = "^3.9"}
 sphinx-autoapi = "^2.0.1"
 sphinx-rtd-theme = "^1.1.1"
+python-semantic-release = "^7.33.0"
 
 [tool.semantic_release]
-version_variable = "pyproject.toml:version" # version location
+#version_variable = "pyproject.toml:version" # version location
+version_variable = "src/easyphysics/__init__.py:__version__" # version location
 branch = "main"                             # branch to make releases of
 changelog_file = "CHANGELOG.md"             # changelog file
 build_command = "poetry build"              # build dists
@@ -31,6 +36,7 @@ upload_to_release = true                    # auto-create GitHub release
 upload_to_pypi = false                      # don't auto-upload to PyPI
 remove_dist = false                         # don't remove dists
 patch_without_tag = true                    # patch release by default
+version_source = "commit"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
