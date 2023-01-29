@@ -2,6 +2,9 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.1 (2023-01-29)
+
+
 ## v0.2.0 (2023-01-29)
 ### Feature
 * Adding comment! ([`5be5f8b`](https://github.com/UBC-MDS/easyphysics/commit/5be5f8ba9c45c6141f0dd3bf7c719a69ba278896))
