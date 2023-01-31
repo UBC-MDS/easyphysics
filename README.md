@@ -1,4 +1,4 @@
-![ci-cd workflow](https://github.com/UBC-MDS/easyphysics/actions/workflows/ci-cd.yml/badge.svg) [![codecov](https://codecov.io/gh/UBC-MDS/easyphysics/branch/main/graph/badge.svg?token=7jGlm8VZMi)](https://codecov.io/gh/UBC-MDS/easyphysics) [![Documentation Status](https://readthedocs.org/projects/easyphysics/badge/?version=latest)](https://easyphysics.readthedocs.io/en/latest/?badge=latest)
+[![ci-cd](https://github.com/UBC-MDS/easyphysics/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/UBC-MDS/easyphysics/actions/workflows/ci-cd.yml) [![codecov](https://codecov.io/gh/UBC-MDS/easyphysics/branch/main/graph/badge.svg?token=7jGlm8VZMi)](https://codecov.io/gh/UBC-MDS/easyphysics) [![Documentation Status](https://readthedocs.org/projects/easyphysics/badge/?version=latest)](https://easyphysics.readthedocs.io/en/latest/?badge=latest)
 
 
 # easyphysics
