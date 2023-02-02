@@ -81,6 +81,6 @@ def plot_frict(m, mu, g):
         title = "The static friction as mass increase"
         )
     else:
-        raise TypeError('height and g has to be numeric!')
+        raise TypeError('mu, mass and g has to be numeric!')
         
     return line
