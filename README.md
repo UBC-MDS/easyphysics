@@ -1,3 +1,6 @@
+[![ci-cd](https://github.com/UBC-MDS/easyphysics/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/UBC-MDS/easyphysics/actions/workflows/ci-cd.yml) [![codecov](https://codecov.io/gh/UBC-MDS/easyphysics/branch/main/graph/badge.svg?token=7jGlm8VZMi)](https://codecov.io/gh/UBC-MDS/easyphysics) [![Documentation Status](https://readthedocs.org/projects/easyphysics/badge/?version=latest)](https://easyphysics.readthedocs.io/en/latest/?badge=latest)
+
+
 # easyphysics
 
 A package with useful physics formulas to make physics easy and fun for users! It uses four functions to easily calculate four classic physics theories. By making the functions concise and supporting graphs to demonstrate the theories, physics beginners might find learning physics fun and not daunting! All functions in this package require only arguments in numeric format; no dataset files are needed. `easyphysics` can also generate easy-to-understand visualizations to further reveal the physics effects.  
