@@ -9,10 +9,15 @@ import matplotlib
 import pytest
 
 def test_kinetic_energy():
+    """Test the kinetic energy function"""
+    # input values to function - m, v
     m = 10
     v = 2.3
+    # expected output value
     expected = 26.45
+    # enter this value in kinetic_energy function
     actual = kinetic_energy(m, v)
+    # if answer is not expected, test fails and returns appropriate error message
     assert actual == expected, "Kinetic Energy is wrong! Check again!"
     
 def test_freefall():
