@@ -52,11 +52,13 @@ def test_freefall():
         
 def test_gravitation_energy():
     """ Test Gravitational Energy"""
+    # entering expected output values for gravitation_energy function
     expected1 = 245.00
     expected2 = 2157.463 
+    # performing operation with set values
     actual1 = gravitational_energy(2.5,10,g = 9.8)
     actual2 = gravitational_energy(10,22,g = 9.80665)
-    
+    # comparing if the computed value matches the actual value - if not, throws a relevant error
     assert round(actual1,2) == round(expected1,2), "Gravitation Energy calculated is not right! Do Check inputs"
     assert round(actual2,2) == round(expected2,2), "Gravitation Energy calculated is not right! Do Check inputs"
     
