@@ -73,7 +73,9 @@ def test_gravitation_energy():
 
     
 def test_friction():
-    """ Test Friction Force on Ground """
+    """ Test Friction Force on Ground,
+    and if the function returns the expected value.
+    """
     expected1 = 3.92
     expected2 = 6.6
     actual1 = static_friction_ground(mu=0.2, m=2, g=9.8)
