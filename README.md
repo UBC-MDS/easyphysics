@@ -24,21 +24,21 @@ The package has four functions which can provide solutions for Physics Equations
 
 ```python
 from easyphysics.freefall import freefall
-time, plot = freefall(height, g = 9.8)
+# time, plot = freefall(height, g = 9.8)
 time, plot = freefall(10, g = 15)
 
 ```
 
 ```python
 from easyphysics.kinetic_energy import kinetic_energy
-KE = kinetic_energy(mass, velocity)
+# KE = kinetic_energy(mass, velocity)
 KE = kinetic_energy(0.6, 3)
 
 ```
 
 ```python
 from easyphysics.gravitational_energy import gravitational_energy
-gravitational_energy(m,h, g = 9.80665)
+# gravitational_energy(m,h, g = 9.80665)
 ge = gravitational_energy(10, 1000, g = 9.8)
 
 ```
@@ -46,7 +46,7 @@ ge = gravitational_energy(10, 1000, g = 9.8)
 ```python
 from easyphysics.static_friction import static_friction_ground
 from easyphysics.static_friction import plot_frict
-static_friction_ground(mu, m, g = 9.8)
+# static_friction_ground(mu, m, g = 9.8)
 force = static_friction_ground(0.2, 2)
 plot_frict(0.2,2,9.8)
 
