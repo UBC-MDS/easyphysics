@@ -28,9 +28,9 @@ def freefall(height, g=9.8):
         the height indicated by user on different planets.
     Examples
     --------
-    >>> free_fall(10, g=9.8)
+    >>> freefall(10, g=9.8)
     1.4286
-    >>> free_fall(10, g=274)
+    >>> freefall(10, g=274)
     0.2702
     """
     if (type(height) == int or type(height) == float) & (type(g) == int or type(g) == float):
